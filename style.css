@@ -1,0 +1,76 @@
+body{
+   background-color:  rgb(178, 235, 207);
+}
+.search-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 30px;
+    padding: 3px 50px 3px 10px;
+    
+    max-width: 360px;
+    
+}
+
+#input{
+    
+  background-color: transparent;
+  outline: none;
+  height: 35px;
+  font-size: 15px;
+  border: 0;
+  width: 100%;
+
+}
+#btn{
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    background-color: #ccc;
+    border-radius: 35px;
+    border: 0;
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+    cursor: pointer;
+
+}
+#title{
+    width: auto;
+    height: auto;
+}
+#pagesButton {
+    display: flex;
+    gap: 10px;
+    margin-left: 90px;
+    margin-bottom:25px ;
+}
+.searchButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 16px; 
+    background-color: #ccc;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+}
+.active{
+    border: 1px solid #000000;
+}
+#container{
+    margin: 90px;
+}
+.listBookTtle{
+    margin: 20px;
+}
